@@ -1,5 +1,6 @@
-package com.in28minutes.springboot.learnspringboot;
+package com.in28minutes.learnspringboot.model;
 
+//pojo
 public class Course {
     private long id;
     private String name;

@@ -48,6 +48,26 @@
                     <artifactId>spring-boot-starter-security</artifactId>
                 </dependency>
         -->
+        <!-- This is for swagger dependency ,  OpenAPI -->
+        <!-- swagger 1,2 was implemented using io.springfox now use openAPI no other configuration needed-->
+        <!--  OpenAPI dependencies -->
+        <dependency>
+            <groupId>org.springdoc</groupId>
+            <artifactId>springdoc-openapi-starter-webmvc-ui</artifactId>
+            <version>2.1.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.hibernate.validator</groupId>
+            <artifactId>hibernate-validator</artifactId>
+            <version>7.0.1.Final</version>
+        </dependency>
+    <!-- to display error.html thymeleaf dependency is needed otherwise getting view resolver-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-thymeleaf</artifactId>
+        </dependency>
+
     </dependencies>
 
     <build>
