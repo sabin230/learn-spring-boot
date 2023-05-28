@@ -9,7 +9,19 @@ after application (restcontroller) access using:
 
 - has commandLineRunner implemented . It is used to run code when application startup
 - Exposes /Actuator
+- http://localhost:8080/actuator
+- <http://localhost:8080/actuator/beans>
 - Has OpenAPI (previously swagger using  io.springfox) implemented by using dependency. 
     - No other confirguration needed
     - http://localhost:8080/swagger-ui/index.html#/
     - access raw json using http://localhost:8080/v3/api-docs
+
+Use thymeleaf dependecy to show error.html if mapping not found
+http://localhost:8080/hello
+
+also has
+http://localhost:8080/dailyworkout 
+uses @Configuration and @Bean to get SwimCoach (it does not have @Controller)
+
+http://localhost:8080/dailyworkout2
+use @Component to get CricketCoach. See the rest controller

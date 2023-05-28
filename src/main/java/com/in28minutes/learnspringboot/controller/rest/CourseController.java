@@ -1,4 +1,4 @@
-package com.in28minutes.learnspringboot.controller;
+package com.in28minutes.learnspringboot.controller.rest;
 
 import com.in28minutes.learnspringboot.model.Course;
 import org.springframework.web.bind.annotation.RequestMapping;

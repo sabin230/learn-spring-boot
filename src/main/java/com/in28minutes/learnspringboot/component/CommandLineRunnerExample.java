@@ -1,4 +1,4 @@
-package com.in28minutes.learnspringboot;
+package com.in28minutes.learnspringboot.component;
 
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
