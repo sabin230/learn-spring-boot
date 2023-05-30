@@ -34,3 +34,4 @@ jdbc:postgresql://localhost:5432/testdb (although docker host is 172.22.0.21 , i
 database:testdb
 table: public.employee
 http://localhost:8080/api/employees  returns json
+check from pgadmin or dbbeaver
