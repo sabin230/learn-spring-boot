@@ -1,4 +1,4 @@
-package com.in28minutes.learnspringboot.model;
+package com.in28minutes.learnspringboot.entity;
 
 //pojo
 public class Course {

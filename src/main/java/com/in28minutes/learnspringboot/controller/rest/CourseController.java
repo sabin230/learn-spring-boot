@@ -1,6 +1,6 @@
 package com.in28minutes.learnspringboot.controller.rest;
 
-import com.in28minutes.learnspringboot.model.Course;
+import com.in28minutes.learnspringboot.entity.Course;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 

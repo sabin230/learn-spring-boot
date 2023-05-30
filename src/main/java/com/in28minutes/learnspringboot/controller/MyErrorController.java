@@ -10,6 +10,7 @@ public class MyErrorController implements ErrorController {
     public String handleError() {
         //do something like logging
         System.out.println("Even without this controller , by default it display error.html");
+        //worked only after adding thymeleaf dependency
         return "error";
     }
 

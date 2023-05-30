@@ -13,6 +13,7 @@ public class WorkoutController {
 
     @Autowired
     //Constructor has 2 private Coach variables
+    //This is example of constructor injection
     public WorkoutController(@Qualifier("aquatic") Coach theCoach, @Qualifier("cricketCoach") Coach theAnotherCoach) {
         System.out.println("In constructor: " + getClass().getSimpleName());
         myCoach = theCoach;

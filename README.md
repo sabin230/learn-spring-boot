@@ -25,3 +25,12 @@ uses @Configuration and @Bean to get SwimCoach (it does not have @Controller)
 
 http://localhost:8080/dailyworkout2
 use @Component to get CricketCoach. See the rest controller
+
+# for jpa , postgres, to start pgadmin and postgres
+C:\Users\sabin\OneDrive\Documents\docker_pg_demo>docker-compose up -d
+<https://github.com/sabin230/docker_pg_demo>
+
+jdbc:postgresql://localhost:5432/testdb (although docker host is 172.22.0.21 , it is exposed to localhost 5432)
+database:testdb
+table: public.employee
+http://localhost:8080/api/employees  returns json
